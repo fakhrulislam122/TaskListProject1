@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    <title>Task List Practise</title>
+
+<style>
+    .success,.error{
+        color: white;
+        padding: 10px;
+        margin: 15px;
+        width: 50%;
+    }
+    .success{
+        background: green;
+    }
+    .error{
+        background: red;
+    }
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+        <h3>Add Tasks</h3>
+    
+       
+      <form class="task-form">
+        <input type="text" id="inputTask" placeholder="Add  Tasks Here">
+        <input type="submit" value="Add Task">
+      </form>
+        
+
+        <hr>
+        <input type="text" id="filter" placeholder="Filter Task !">
+
+         <ul class="task-list">
+
+         </ul>
+
+         <button class="clear-task-btn">Clear Task</button>
+
+    <script src="index.js"></script>
+    </div>
+</body>
+</html>
